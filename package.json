@@ -1,0 +1,33 @@
+{
+  "name": "galery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "keywords": [],
+  "author": "Thiago Franchin",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0",
+    "bootstrap": "^4.1.1",
+    "copy-webpack-plugin": "4.5.2",
+    "cross-env": "5.2.0",
+    "css-loader": "0.28.11",
+    "file-loader": "1.1.11",
+    "jquery": "3.3.1",
+    "mini-css-extract-plugin": "0.4.1",
+    "node-sass": "4.9.0",
+    "optimize-css-assets-webpack-plugin": "4.0.3",
+    "popper.js": "1.14.3",
+    "postcss-loader": "2.1.5",
+    "sass-loader": "7.0.3",
+    "style-loader": "0.21.0",
+    "uglifyjs-webpack-plugin": "1.2.7",
+    "webpack": "4.14.0",
+    "webpack-cli": "3.0.8",
+    "webpack-dev-server": "3.1.4"
+  }
+}
